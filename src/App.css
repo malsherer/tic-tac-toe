@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap');
+
+
+* {
+  text-align: center;
+  background-color: #F3F7F0;
+  color:#19323C;
+  font-family: 'Rokkitt', serif;
+}
+
+.square {
+  border: 2px solid #19323C;
+  font-size: 10rem;
+  height: 200px;
+  text-align: center;
+  width: 200px;
+}
+
+.square:hover {
+  background-color: #A93F55;
+  transition-duration: .3s;
+}
+
+.game-board {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 620px;
+}
+
+.restart-btn {
+  width: 8rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  background-color: #A93F55;
+  color: #F3F7F0;
+}
+
+.restart-btn:hover {
+  background-color: #19323C;
+  transition-duration: .5s;
+}
